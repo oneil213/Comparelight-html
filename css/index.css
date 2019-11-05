@@ -77,6 +77,7 @@ body p{
 
 
 .learn_more button{
+
     width: 353px;
     height: 66px;
     border-radius: 40px;
@@ -96,6 +97,13 @@ body p{
     margin-bottom: 50px;
 
  }
+
+ .learn_more button:hover {
+    background-color:#78AA4A; 
+    color:#ffffff;
+  }
+
+ 
 
 /* landing section */
 
@@ -154,6 +162,12 @@ body p{
 
  }
 
+ .login button:hover {
+    background-color: white; 
+    color:#78AA4A;
+  }
+
+
 
 .signup button{
     width: 119px;
@@ -169,8 +183,11 @@ body p{
     padding: 5px;
     color: #ffffff;
     text-align: center;
-
  }
+
+.signup button:hover {
+    background-color: rgba(45, 178, 59, 0.7); 
+  }
 
 
 .welcome{
@@ -270,6 +287,10 @@ form button {
     text-align: center;
     margin: 5px;
 
+  }
+
+  form button:hover {
+    background-color: rgba(45, 178, 59, 0.7); 
   }
 
 
@@ -398,6 +419,12 @@ form button {
 
  }
 
+ .card button:hover {
+    background-color: white; 
+    color:#78AA4A;
+  }
+
+
 
 
 
@@ -469,6 +496,11 @@ article button {
     
 
 }
+
+article  button:hover {
+    background-color: white; 
+    color:#78AA4A;
+  }
 
 /* Register section */
 
@@ -1243,6 +1275,7 @@ article button {
        
     
     #Register button {
+        cursor: pointer;
         width: 253px;
         height: 66px;
         border-radius: 40px;
@@ -1261,6 +1294,8 @@ article button {
     
     
     }
+
+    
 
     .pages {
         display: flex;
