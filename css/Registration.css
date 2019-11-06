@@ -224,6 +224,14 @@ body p{
       
   }
 
+  
+  
+  input:valid {
+    border: none;
+  }
+
+
+
   .reg_form button {
     cursor: pointer;
     width: 353px;
