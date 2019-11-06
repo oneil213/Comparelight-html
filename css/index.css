@@ -1,4 +1,3 @@
-
 /* reset all margin */
 * {
     margin: 0;
@@ -141,7 +140,9 @@ body p{
 .menu {
     display: flex;
     flex-direction: row;
-    float: right;
+    justify-content: center;
+    align-items: center;
+    
   }
 
 .login button{
