@@ -1,0 +1,267 @@
+@media only screen and (max-width: 1366px) {
+
+    .panel_name2{
+
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        justify-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+       
+    
+    }
+    .panel_name2 h4{
+        font-size: 1.5em;
+        font-weight: 700;
+        line-height: 1.5em;
+        padding: 15px;
+        color: black;
+        text-align: center;
+    
+
+}
+.panel_name2 img{
+    
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    
+  
+}
+
+}
+
+
+@media only screen and (max-width: 1112px) {
+
+    .row2_components {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lower_components1{
+        background-color: #ffffff;
+        height: 350px;
+        width: 100%;
+        margin-right: none;
+        margin-bottom: 20px;
+    
+    }
+    .lower_components2{
+        background-color: rgba(255, 255, 255, 80%);
+        height: 350px;
+        width: 100%;
+        margin-right: none;
+        margin-bottom: 20px;
+    
+    }
+    .lower_components3{
+        background-color: rgba(255, 255, 255, 80%);
+        height: 350px;
+        width: 100%;
+        margin-bottom: 20px;
+    
+    }
+
+}
+
+@media only screen and (max-width: 10204px) {
+
+
+.row1_components{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-items: center;
+
+}
+
+.top_componentsR1{
+    background-color: #ffffff;
+    height: 400px;
+    width: 100%;
+    margin-right: none;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;   
+
+}
+
+.top_componentsR2{
+    background-color:rgba(255, 255, 255, 80%);
+    height: 400px;
+    width: 100%;
+    margin-right: none;
+    margin-bottom: 20px;
+
+   
+    
+
+}
+
+.top_componentsL{
+    background-color: rgba(255, 255, 255, 80%);
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+    
+
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 850px) {
+
+    
+
+    .dashboard {
+        min-height: 900px;
+        background-color: #F5F6FC;
+        display: flex;
+        flex-direction: column;
+        background-image: url("https://res.cloudinary.com/dfszquucy/image/upload/v1573809865/Group_132_h7ftcl.png");
+        background-repeat: no-repeat;
+        background-position: center right;
+        background-size: contain;
+        background-position-x: 550px;
+        background-position-y: 70px;
+    
+    }
+    
+    .left_dash{
+        margin: 20px;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .right_dash{
+        margin-right:20px;
+        margin-top: 20px;
+        float: none;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .greetings{
+        width: auto;
+        background-color: rgba(230,167,78, 90%);
+        opacity: 70%;
+        height: 150px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .row1_greetings{
+        display: flex;
+        flex-direction: row;
+        margin-right: 20px;
+    }
+
+    .right_dash{
+
+        margin-top: 20px;
+        margin-left: 20px;
+        float: none;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    
+
+}
+
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        font-size: 12px;
+      }
+
+      .top_menu {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: none;
+        margin-right: none;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        float: none;
+        justify-content: center;
+        align-items: center;
+      }
+
+   
+
+/* logo style section */
+
+.logo{
+    float: none;
+}
+
+.top_menu img{
+    max-width: 75px;
+    max-height: 72px;
+}
+
+
+
+
+    .row1_greetings{
+        display: flex;
+        flex-direction: column;
+    }
+    .row1_greetings h3{
+
+    font-size: 2em;
+    font-weight: 100;
+    line-height: 1.2em;
+    padding: 5px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 10px;
+
+    }
+
+    .row1_greetings h2{
+
+        font-size: 2.8em;
+        font-weight: 500;
+        line-height: 1.2em;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 0px;
+        padding: 0px;
+        margin-bottom: 10px;
+        text-align: center;
+        
+    }
+
+
+    .row2_greetings p{
+        font-size: 0.8em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-left: 30px;
+    margin-right: 20px;
+    color: #ffffff;
+    text-align: center;
+    
+        
+    }
+
+}
