@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./css/Transactions.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+    <title>Transactions</title>
+</head>
+<body>
+    <div class="container">
+        <div class="underlay">
+            <div class="top_menu">
+                <div class="logo"><img src="./src/logo header.png"></div>
+                        <div class="menu">
+                            <div><a>Recharge</a></div>
+                            <div><a>Link</a></div>
+                            <div><a>Link</a></div>
+                            <div><button>Sign Out</button></div>
+                        </div>
+            </div>
+        </div>
+        <div class="header">
+            <h2>Transactions</h2> <br><h4>View previous transactions</h4>
+           <hr/>
+        </div>
+        <div class="transaction_board">
+            <div class="left_board">
+                <div class="recharged_meters">
+                    <h3>Recharged Meters</h3>
+                    <select id="select Meters" name="select Meters" required>
+                        <option value="045348794232">045348794232</option>
+                        <option value="569248794232">569248794232</option>
+                    </select>
+                </div>
+
+                <div class="account_history">
+                    <h3>Account History</h3>
+                    <div class="history_specifics">
+                        <hr/>
+                        <div class="total_spent">
+                            <div class="header"><h4>Total Spent &#9432;</h4></div>
+                            <div class="figure"><h4>₦14,500,000.00</h4></div> 
+                        </div>
+                    </div>
+
+                    <div class="history_specifics">
+                            <hr/>
+                            <div class="total_debit">
+                                <div class="header"><h4>Total Debit &#9432;</h4></div>
+                                <div class="figure"><h4>₦14,000.00</h4></div> 
+                            </div>
+                        </div>
+                </div>
+                
+            
+        
+            </div>
+
+            <div class="right_board">
+                <div class="transaction_filter">
+                        <h3>Transaction Filter</h3>
+                        <div class="filter_form">
+                            <div class="top_search">
+                                    <input class="transaction_id" type="text" name="transaction ID"   placeholder="Search by transaction ID"/>
+  
+                                    <input  class="date_type" type="date" name="start Date"   placeholder="Start date" />
+                                    
+                                    <input  class="date_type" type="date" name="end Date"   placeholder="End date" />
+
+                            </div>
+                            <button>Search</button>
+                                
+
+                        </div>
+                </div>
+
+                <div class="transaction_history">
+                    <h3>Transaction History</h3>
+                    <div class="transaction_header">
+                        <h4>Description</h4>
+                        <h4>Amount</h4>
+                    </div>
+                    <div class="transactions_container">
+                        <hr class="underline"/>
+                            <div class="transaction_description">
+                        
+                        
+                                    <div class="transaction_id">
+                            
+                                            <h4>TD0565432865432</h4>
+                                            <h5>22/12/2019</h5>
+                                        </div>
+                                        <div class="figure"><h4>₦14,000.00</h4></div> 
+                                    </div>
+                                    
+
+                    </div>
+                    <div class="transactions_container">
+                            <hr class="underline"/>
+                                <div class="transaction_description">
+                            
+                            
+                                        <div class="transaction_id">
+                                
+                                                <h4>TD0565432865432</h4>
+                                                <h5>22/12/2019</h5>
+                                            </div>
+                                            <div class="figure"><h4>₦14,000.00</h4></div> 
+                                        </div>
+                                        
+    
+                        </div>
+                        <div class="transactions_container">
+                                <hr class="underline"/>
+                                    <div class="transaction_description">
+                                
+                                
+                                            <div class="transaction_id">
+                                    
+                                                    <h4>TD0565432865432</h4>
+                                                    <h5>22/12/2019</h5>
+                                                </div>
+                                                <div class="figure"><h4>₦14,000.00</h4></div> 
+                                            </div>
+                                            
+        
+                            </div>
+                            
+                        <h4>View more</h4>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
